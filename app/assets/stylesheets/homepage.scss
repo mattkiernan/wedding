@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+  #nav-bar {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('https://s3.amazonaws.com/mtk-wedding/BebasNeue.otf');
+}
+
+body{
+  margin: 0;
+}
+
+.hero-image{
+  margin: 0;
+  padding: 0;
+  display:block;
+  width: 100%;
+}
+
+#nav-bar{
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background-color: #eeebe5;
+  text-align: center;
+}
+
+#nav-list{
+  ul{
+  }
+
+  li{
+    display: inline;
+    color: #525251;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding: 5px 10px;
+  }
+}
