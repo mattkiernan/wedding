@@ -1,30 +1,3 @@
-<div id="nav-bar">
-  <ul id="nav-list">
-    <li>The Wedding</li>
-    <li>Weekend Events</li>
-    <li>Travel & Accomodations</li>
-    <li>Something Else</li>
-    <li>Another Thing</li>
-    <li>One Final Thing</li>
-  </ul>
-</div>
-<div id="beach-hero">
-<%= image_tag("https://s3.amazonaws.com/mtk-wedding/homepage_hero_cut.png", class: "hero-image") %>
-</div>
-<div id="mfa-hero">
-  <div id="mfa-title">
-    <span id="mfa-name">Museum of Fine Arts</span>
-    <span id="mfa-address">123 Huntington Avenue</span>
-</div>
-<%= image_tag("https://s3.amazonaws.com/mtk-wedding/mfa_hero.png", class: "hero-image") %>
-<div id="mfa-details">
-  <p><span class="mfa-header">6PM Ceremony</span><br />
-  <span class="mfa-details">In the Koch Gallery</span></p>
-
-  <p><span class="mfa-header">Cocktail Hour</span><br />
-  <span class="mfa-details">In the Rotunda</span></p>
-
-  <p><span class="mfa-header">Reception from 7:30 - Midnight</span><br />
-  <span class="mfa-details">In the Wing of the Americas<span class="mfa-details"></p>
-</div>
-  </div>
+<%= render "nav_bar" %>
+<%= render "beach_hero" %>
+<%= render "mfa_hero" %>

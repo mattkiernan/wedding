@@ -1,0 +1,45 @@
+#mfa-section{
+  background-image:
+  url("https://s3.amazonaws.com/mtk-wedding/mfa_hero.png");
+  background-size: 100%;
+  min-height: 1px;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#mfa-content{
+  @include outer-container;
+}
+
+#mfa-title{
+  @include span-columns(6);
+  width: 600px;
+  text-align: center;
+
+  #mfa-name{
+    font-size: 60px;
+    display: block;
+  }
+  #mfa-address{
+    font-size: 30px;
+    display: block;
+  }
+}
+
+#mfa-details{
+  @include span-columns(6);
+  width: 400px;
+  background: rgba(0, 0, 0,  0.7);
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mfa-header{
+  font-size: 35px;
+}
+
+.mfa-details{
+  font-size: 25px;
+}

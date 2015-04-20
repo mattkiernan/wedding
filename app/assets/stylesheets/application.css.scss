@@ -1,0 +1,19 @@
+@import "bourbon";
+@import "neat";
+
+
+@import "nav-bar";
+@import "beach";
+@import "mfa";
+
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('https://s3.amazonaws.com/mtk-wedding/BebasNeue.otf');
+}
+
+body{
+  margin: 0;
+  font-family: 'Bebas Neue';
+  color: white;
+}

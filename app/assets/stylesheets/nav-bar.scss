@@ -1,0 +1,21 @@
+#nav-bar{
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background-color: #eeebe5;
+  text-align: center;
+}
+
+#nav-list{
+  ul{
+  }
+
+  li{
+    display: inline;
+    color: #525251;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding: 5px 10px;
+  }
+}
