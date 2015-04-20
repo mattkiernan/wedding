@@ -1,6 +1,6 @@
-@media (max-width: 600px) {
-  #nav-bar {
-    display: none;
+@media all and (max-width: 1000px){
+  #mfa-name{
+    font-size: 16px;
   }
 }
 
@@ -18,6 +18,10 @@ body{
   padding: 0;
   display:block;
   width: 100%;
+}
+
+#mfa-hero{
+  position:relative;
 }
 
 #nav-bar{
@@ -40,4 +44,43 @@ body{
     font-family: "Bebas Neue";
     padding: 5px 10px;
   }
+}
+#mfa-title{
+  position: absolute;
+  color: white;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  left: 10%;
+  top: 150px;
+
+  #mfa-name{
+    font-size: 60px;
+    display: block;
+  }
+  #mfa-address{
+    font-size: 30px;
+    display: block;
+  }
+}
+
+#mfa-details{
+  background: rgba(0, 0, 0,  0.7);
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mfa-header{
+  font-family: 'Bebas Neue';
+  font-size: 35px;
+}
+
+.mfa-details{
+  font-family: 'Bebas Neue';
+  font-size: 25px;
 }
