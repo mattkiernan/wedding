@@ -1,0 +1,16 @@
+#boston-section{
+  position: relative;
+}
+
+#boston-content{
+  top: 10%;
+  position: absolute;
+  @include span-columns(12);
+  @include shift(2);
+}
+
+#boston-hero-image{
+  width: 100%;
+  display: block;
+  opacity: 0.8;
+}

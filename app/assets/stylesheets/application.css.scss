@@ -5,6 +5,8 @@
 @import "nav-bar";
 @import "beach";
 @import "mfa";
+@import "boston";
+@import "liberty";
 
 
 @font-face {
@@ -14,6 +16,7 @@
 
 body{
   margin: 0;
+  padding: 0;
   font-family: 'Bebas Neue';
   color: white;
 }
