@@ -1,16 +1,21 @@
-#libery-section{
+#liberty-section{
   position: relative;
 }
 
-#libery-content{
+#liberty-content{
   top: 10%;
   position: absolute;
   @include span-columns(12);
-  @include shift(2);
+  @include shift(1);
 }
 
 #liberty-hero-image{
   display: block;
   width: 100%;
   opacity: 0.8;
+}
+
+.liberty-section-header{
+  color: #ffffff;
+ font-size: 40px;
 }

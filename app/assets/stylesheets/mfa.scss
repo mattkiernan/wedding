@@ -3,18 +3,19 @@
 }
 
 #mfa-content{
-  @include span-columns(12);
+  //@include span-columns(12);
   top: 10%;
   position: absolute;
-  padding-left: 50px;
+  left: 0;
+  right: 0;
 }
 
 #mfa-title{
-  @include span-columns(6 of 12);
+  //  @include span-columns(6);
   text-align: center;
   padding-bottom: 10px;
-  padding-left: 70px;
-  width: 600px;
+//  padding-left: 70px;
+//  width: 600px;
 
   #mfa-name{
     font-size: 5em;
@@ -27,11 +28,10 @@
 }
 
 #mfa-details-box{
-  @include span-columns(6 of 12);
+  //@include span-columns(6);
   background: rgba(0, 0, 0,  0.6);
   text-align: center;
   vertical-align: middle;
-  width: 600px;
 }
 
 .mfa-header{
@@ -46,4 +46,11 @@
   width: 100%;
   display: block;
   opacity: 0.8;
+}
+
+@media (max-width: 1300px){
+  #mfa-content{
+    font-size: 10px;
+    margin: 0 auto;
+  }
 }
