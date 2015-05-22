@@ -1,5 +1,15 @@
 #beach-hero{
-  width: 100%;
   display: block;
   opacity: 0.9;
+  background-image:
+  url("https://s3.amazonaws.com/mtk-wedding/homepage_hero_cut.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#beach-hero-image{
+  visibility: hidden;
+  width: 100%;
+  margin: 0px;
 }

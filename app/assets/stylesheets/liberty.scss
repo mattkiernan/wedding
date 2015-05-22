@@ -1,5 +1,13 @@
 #liberty-section{
   position: relative;
+  background-image: url("https://s3.amazonaws.com/mtk-wedding/liberty.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#liberty-image{
+  visibility: hidden;
+  width: 100%;
 }
 
 #liberty-content{

@@ -1,5 +1,15 @@
 #boston-section{
   position: relative;
+  background-image: url("https://s3.amazonaws.com/mtk-wedding/boston.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#boston-image{
+  visibility: hidden;
+  width: 100%;
+  margin: 0px;
 }
 
 #boston-content{
