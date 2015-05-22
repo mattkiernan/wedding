@@ -3,7 +3,7 @@
   background-image: url("https://s3.amazonaws.com/mtk-wedding/boston.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  margin: 0px;
+  margin: -4px;
 }
 
 #boston-image{
@@ -83,3 +83,10 @@ li.current{
   display:
   inherit;
 }
+
+@media (max-width: 900px){
+  h1{
+    display: none;
+  }
+}
+
