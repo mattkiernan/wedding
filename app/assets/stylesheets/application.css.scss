@@ -7,6 +7,8 @@
 @import "mfa";
 @import "boston";
 @import "liberty";
+@import "date-tabs";
+@import "flexbox";
 
 
 @font-face {
@@ -21,8 +23,3 @@ body{
   color: white;
 }
 
-// @media (max-width:1280px) {
-//   body{
-//     font-size: 10px;
-//   }
-// }
