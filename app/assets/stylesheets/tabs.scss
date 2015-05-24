@@ -1,3 +1,9 @@
+.tabs-container{
+  font-family: arial;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .daily-agenda{
   background-color: #ffffff;
   position: relative;
@@ -6,9 +12,8 @@
   padding: 10px;
 }
 
-.container{
-  width: 80%;
-  //margin: 0 auto;
+.tabs-container{
+  width: 90%;
 }
 
 ul.tabs{
@@ -35,6 +40,10 @@ ul.tabs li.current{
   background: #ededed;
   padding: 15px;
   color: black;
+  ul{
+    padding: 0;
+    list-style-type: none;
+  }
 }
 
 .tab-content.current{
