@@ -2,12 +2,16 @@ $(document).ready(function(){
 
   $('ul.tabs li').click(function(){
     var tab_id = $(this).attr('data-tab');
+    tab_set = $(this).closest('ul');
+    tab_set_li = tab_set.find('li')
+    all_content = tab_set.closest("div").children("div");
 
-    $('ul.tabs li').removeClass('current');
-    $('.tab-content').removeClass('current');
+  $(tab_set_li).removeClass('current');
+  $(all_content).removeClass('current');
 
-    $(this).addClass('current');
-    $("#"+tab_id).addClass('current');
+  $(this).addClass('current');
+  $("#"+tab_id).addClass('current');
   })
 
 })
+;
