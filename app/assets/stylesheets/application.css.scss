@@ -9,6 +9,7 @@
 @import "liberty";
 @import "footer";
 @import "flexbox";
+@import "mobile";
 @import "tabs";
 
 
@@ -24,19 +25,19 @@ body{
   color: white;
 }
 
-// #mobile-version{
-//   display: none;
-//   color: black;
-// }
-//
-// @media (max-width: 750px){
-//   #desktop-version{
-//     display: none;
-//   }
-// }
-//
-// @media (max-width: 750px){
-//   #mobile-version{
-//     display: block;
-//   }
-// }
+#mobile-version{
+  display: none;
+  color: black;
+}
+
+@media (max-width: 860px){
+  #desktop-version{
+    display: none !important;
+  }
+}
+
+@media (max-width: 860px){
+  #mobile-version{
+    display: block !important;
+  }
+}

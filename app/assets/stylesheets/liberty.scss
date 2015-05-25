@@ -29,7 +29,7 @@
   font-size: 60px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) and (min-width: 860px){
   ul.tabs li{
     font-size: 60px !important;
   }
