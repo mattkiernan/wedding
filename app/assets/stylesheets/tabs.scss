@@ -1,33 +1,27 @@
-.tabs-container{
+.x-circle{
+  float: right;
+  cursor: pointer;
+  color: black;
   font-family: arial;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.daily-agenda{
-  background-color: #ffffff;
-  position: relative;
-  color: #000000;
-  height: 300px;
-  padding: 10px;
-}
-
-.tabs-container{
-  width: 90%;
+  font-size: 25px;
 }
 
 ul.tabs{
   margin: 0px;
   padding: 0px;
   list-style: none;
-  background-color: white;
+  text-align: center;
+  padding-top: 15%;
 }
 ul.tabs li{
-  background: none;
-  color: #222;
+  color: white;
+  font-size: 80px;
   display: inline-block;
-  padding: 10px 15px;
   cursor: pointer;
+  padding: 30px;
+  text-align: center;
+  text-shadow: #000000 5px 5px 20px, #000000 -5px -5px 20px, #000000 5px
+  -5px 20px, #000000 -5px 5px 20px;
 }
 
 ul.tabs li.current{
@@ -36,10 +30,14 @@ ul.tabs li.current{
 }
 
 .tab-content{
+  width: 100%;
+  position: absolute;
+  top: 0;
   display: none;
-  background: #ededed;
+  background: rgba(239, 237, 233, 0.9);
   padding: 15px;
-  color: black;
+  color: #333333;
+  font-family: arial;
   ul{
     padding: 0;
     list-style-type: none;

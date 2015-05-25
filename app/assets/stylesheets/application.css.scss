@@ -24,19 +24,19 @@ body{
   color: white;
 }
 
-#mobile-version{
-  display: none;
-  color: black;
-}
-
-@media (max-width: 750px){
-  #desktop-version{
-    display: none;
-  }
-}
-
-@media (max-width: 750px){
-  #mobile-version{
-    display: block;
-  }
-}
+// #mobile-version{
+//   display: none;
+//   color: black;
+// }
+//
+// @media (max-width: 750px){
+//   #desktop-version{
+//     display: none;
+//   }
+// }
+//
+// @media (max-width: 750px){
+//   #mobile-version{
+//     display: block;
+//   }
+// }

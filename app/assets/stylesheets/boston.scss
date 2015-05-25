@@ -13,10 +13,10 @@
 }
 
 #boston-content{
-  top: 10%;
   position: absolute;
-  @include span-columns(12);
-  @include shift(1);
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 #boston-hero-image{

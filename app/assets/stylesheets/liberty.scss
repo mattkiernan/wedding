@@ -12,10 +12,10 @@
 }
 
 #liberty-content{
-  top: 10%;
   position: absolute;
-  @include span-columns(12);
-  @include shift(1);
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 #liberty-hero-image{
@@ -26,5 +26,11 @@
 
 .liberty-section-header{
   color: #ffffff;
- font-size: 40px;
+  font-size: 60px;
+}
+
+@media (max-width: 1200px){
+  ul.tabs li{
+    font-size: 60px !important;
+  }
 }
