@@ -11,6 +11,8 @@
 @import "flexbox";
 @import "mobile";
 @import "tabs";
+@import "hotels";
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 
@@ -37,20 +39,20 @@ body{
   color: white;
 }
 
-#mobile-version{
-  display: none;
-  color: black;
-}
-
-@media (max-width: 860px){
-  #desktop-version{
-    display: none !important;
-  }
-}
-
-@media (max-width: 860px){
-  #mobile-version{
-    display: block !important;
-    font-family: 'Champs';
-  }
-}
+// #mobile-version{
+//   display: none;
+//   color: black;
+// }
+//
+// @media (max-width: 860px){
+//   #desktop-version{
+//     display: none !important;
+//   }
+// }
+//
+// @media (max-width: 860px){
+//   #mobile-version{
+//     display: block !important;
+//     font-family: 'Champs';
+//   }
+// }
