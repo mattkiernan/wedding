@@ -5,23 +5,23 @@
 
 @font-face {
   font-family: 'Bebas Neue';
-  src: url('https://s3.amazonaws.com/mtk-wedding/BebasNeue.otf');
+  src: font-url('BebasNeue.otf');
 }
 
 @font-face {
   font-family: 'Laser Metal' !important;
-  src: url('https://s3.amazonaws.com/mtk-wedding/LaserMetal.ttf');
+  src: font-url('LaserMetal.ttf');
 }
 
 @font-face {
   font-family: Champs;
-  src: url('https://s3.amazonaws.com/mtk-wedding/Champagne+%26+Limousines.ttf')
+  src: font-url('Champs.ttf')
   format('truetype');
 }
 
 body{
   margin: 0px;
   padding: 0px;
-  font-family: 'Bebas Neue';
+  font-family: 'Champs';
   color: white;
 }

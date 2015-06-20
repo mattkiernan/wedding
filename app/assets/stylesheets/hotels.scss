@@ -4,7 +4,7 @@
   height: 400px;
 }
 
-.liberty-content, .sheraton-content, .marriot-content{
+.liberty-content, .sheraton-content, .westin-content{
   display: none;
   background-color: white;
   border: 1px solid #888888;
@@ -22,7 +22,7 @@
   margin: 30px;
   h2{
     text-align: center;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Bebas Neue';
     font-size: 50px;
     text-transform: uppercase;
   }
@@ -40,7 +40,7 @@
   background-position: center;
 }
 
-#marriot{
+#westin{
   background-image: url("/westin.png");
   background-repeat: no-repeat;
   background-position: center;
