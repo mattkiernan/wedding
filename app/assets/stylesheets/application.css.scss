@@ -1,19 +1,6 @@
-@import "bourbon";
-@import "neat";
-
-
-@import "nav-bar";
-@import "beach";
-@import "mfa";
-@import "boston";
-@import "liberty";
-@import "footer";
-@import "flexbox";
-@import "mobile";
-@import "tabs";
-@import "hotels";
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import "beach",
+        "welcome_note",
+        "hotels";
 
 
 @font-face {
@@ -38,21 +25,3 @@ body{
   font-family: 'Bebas Neue';
   color: white;
 }
-
-// #mobile-version{
-//   display: none;
-//   color: black;
-// }
-//
-// @media (max-width: 860px){
-//   #desktop-version{
-//     display: none !important;
-//   }
-// }
-//
-// @media (max-width: 860px){
-//   #mobile-version{
-//     display: block !important;
-//     font-family: 'Champs';
-//   }
-// }
