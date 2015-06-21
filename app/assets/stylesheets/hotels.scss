@@ -1,59 +1,45 @@
 .hotel{
-  margin: 10px;
-  padding: 0px;
+  padding: 0;
   height: 400px;
+  margin: auto;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .liberty-content, .sheraton-content, .westin-content{
   display: none;
+  margin: auto;
+  margin-top: 10px;
   background-color: white;
   border: 1px solid #888888;
   height: 400px;
-  padding: 15px;
+  width: 340px;
   font-family: 'Champs';
-}
-
-.hotel-rows{
-  margin-top: 30px;
-}
-
-.hotels-container{
-  margin: 30px;
-  text-align: center;
-  p.mention{
-    font-family: 'Champs';
-    font-size: 1.5em;
-    font-style: italic;
-  }
-  h2{
-    text-align: center;
-    font-family: 'Bebas Neue';
-    font-size: 50px;
-    text-transform: uppercase;
-  }
-}
-
-.hotel-description{
-  li{
-    text-align: left;
-    font-size: 1.2em;
-  }
+  padding: 10px;
 }
 
 #liberty{
   background-image: url("/liberty.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #sheraton{
   background-image: url("/sheraton.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #westin{
   background-image: url("/westin.png");
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+h2{
+  font-family: 'Champs';
+  text-align: center;
+}
+
+.mention{
+  font-family: 'Champs';
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 20px;
 }

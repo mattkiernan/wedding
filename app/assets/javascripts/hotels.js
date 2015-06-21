@@ -1,10 +1,10 @@
 $(document).ready(function(){
-  $(".hotel").hover(function(){
+  $(".hoverable").hover(function(){
     var hovered_element = $(this).attr("id");
     $("."+hovered_element+"-content").toggle();
   });
 
-  $(".hotel").click(function(){
+  $(".hoverable").click(function(){
     var hovered_element = $(this).attr("id");
     $("."+hovered_element+"-content").toggle();
   });

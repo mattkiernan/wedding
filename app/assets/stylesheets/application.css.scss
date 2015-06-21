@@ -1,6 +1,7 @@
 @import "beach",
         "welcome_note",
         "nav-bar",
+        "travel",
         "hotels";
 
 
@@ -25,4 +26,8 @@ body{
   padding: 0px;
   font-family: 'Champs';
   color: white;
+}
+
+.seperator{
+  margin: 100px 0 70px 0;
 }
