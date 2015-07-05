@@ -2,6 +2,7 @@
         "welcome_note",
         "nav-bar",
         "travel",
+        "weekend-events",
         "hotels";
 
 
@@ -25,9 +26,15 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: 'Champs';
-  color: white;
 }
 
 .seperator{
   margin: 100px 0 70px 0;
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Champs' !important;
+  color: #898d8d !important;
 }
