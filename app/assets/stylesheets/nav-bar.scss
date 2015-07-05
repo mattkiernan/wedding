@@ -1,4 +1,4 @@
-#nav-bar{
+#desktop-nav-bar{
   z-index: 999;
   position: fixed;
   top: 0;
@@ -11,6 +11,34 @@
     text-align: center;
     li{
       display: inline;
+      padding-right: 5%;
+      font-family: 'Champs';
+      font-size: 1.5em;
+      text-transform: uppercase;
+      li:nth-child(5){
+        padding-right: 0;
+      }
+    }
+  }
+  a{
+    text-decoration: none;
+    color: #898d8d;
+  }
+}
+
+#coming-soon{
+  font-size: 0.7em;
+}
+
+#mobile-nav-bar{
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  ul{
+    padding:10px;
+    margin: 0;
+    text-align: center;
+    li{
       padding-right: 5%;
       font-family: 'Champs';
       font-size: 1.5em;

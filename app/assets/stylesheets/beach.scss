@@ -3,7 +3,13 @@
   margin-top: 40px;
 }
 
-#beach-hero-image{
+#beach-hero-image, #mobile-beach-hero-image{
   width: 100%;
 }
 
+// @media (max-width: 800px) {
+//   #beach-hero-image{
+//     min-height:600px;
+//   }
+// }
+//

@@ -3,6 +3,8 @@
         "nav-bar",
         "travel",
         "weekend-events",
+        "google-form",
+        "footer",
         "hotels";
 
 
@@ -37,4 +39,19 @@ h2{
   text-align: center;
   font-family: 'Champs' !important;
   color: #898d8d !important;
+}
+
+@media (min-width: 900px) {
+  #mobile-nav-bar, #mobile-beach-hero-image{
+    display: none !important;
+  }
+}
+
+@media (max-width: 899px) {
+  #desktop-nav-bar, #beach-hero-image{
+    display: none !important;
+  }
+  #beach-hero{
+    margin-top: 0;
+  }
 }
