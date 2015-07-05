@@ -14,9 +14,18 @@
       padding-right: 5%;
       font-family: 'Champs';
       font-size: 1.5em;
+      text-transform: uppercase;
       li:nth-child(5){
         padding-right: 0;
       }
     }
   }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+}
+
+#coming-soon{
+  font-size: 0.7em;
 }
